@@ -1,0 +1,47 @@
+🔥 Task 2: Authentication (Real-World Test)
+
+Now we level up. This is where interns usually panic 😈
+
+📌 Problem Statement
+
+Add JWT-based authentication to your backend.
+
+Users should be able to:
+
+1. Register
+
+2. Login
+
+3. Access a protected route
+
+🛠 Requirements
+1️⃣ Update User Schema
+
+Add:
+
+password (String, required, hashed)
+
+🔥 Task 3: Error Handling & API Hardening (Industry Test)
+
+Now we test professional backend maturity.
+
+📌 Problem Statement
+
+Your API is growing. You must centralize error handling and prevent server crashes.
+
+🛠 Requirements
+
+1️⃣ Create a global error handler middleware
+
+Handles:
+
+Invalid MongoDB ObjectId
+
+Duplicate key error
+
+JWT errors
+
+Default server errors
+
+2️⃣ Create an async handler wrapper
+So you don’t write try/catch in every route.
