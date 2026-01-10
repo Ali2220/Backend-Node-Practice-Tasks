@@ -21,6 +21,7 @@ Add:
 
 password (String, required, hashed)
 
+========================================================
 🔥 Task 3: Error Handling & API Hardening (Industry Test)
 
 Now we test professional backend maturity.
@@ -45,3 +46,52 @@ Default server errors
 
 2️⃣ Create an async handler wrapper
 So you don’t write try/catch in every route.
+
+
+========================================================
+🔥 Task 4: Database Design (Real Product Thinking)
+📌 Problem Statement
+
+You are building a Task Management System (like Trello-lite).
+
+Users can:
+
+Create tasks
+
+Assign tasks to themselves
+
+Mark tasks as completed
+
+🛠 Requirements
+
+1️⃣ Design Task Schema
+
+title (required)
+
+description
+
+status (pending, in-progress, completed)
+
+user (reference to User)
+
+createdAt
+
+2️⃣ Answer These Questions:
+
+Should we embed tasks inside User or reference User in Task? Why?
+
+What indexes would you add?
+
+How would you fetch all tasks of a user efficiently?
+
+⏱ Time Limit
+
+10 minutes
+
+🧾 What I Want
+
+Reply with:
+
+Mongoose Task schema
+
+Answers to the 3 design questions (short but clear)
